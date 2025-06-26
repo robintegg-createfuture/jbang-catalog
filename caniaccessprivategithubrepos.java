@@ -9,13 +9,13 @@ public class caniaccessprivategithubrepos {
 
         out.println("Checking access to private GitHub repos");
 
-        final String githubAccessToken = getenv( "GITHUB_ACCESS_TOKEN" );
+        final String githubAccessToken = getenv( "GITHUB_TOKEN" );
 
         if ( githubAccessToken == null || githubAccessToken.isEmpty() ) {
-            out.println( "GITHUB_ACCESS_TOKEN environment variable is not set." );
+            out.println( "GITHUB_TOKEN environment variable is not set." );
             exit( 1 );
         } else {
-            out.println( "GITHUB_ACCESS_TOKEN is set." );
+            out.println( "GITHUB_TOKEN is set." );
             out.println( "You can access private GitHub repos." );
             exit( 0 );
         }
