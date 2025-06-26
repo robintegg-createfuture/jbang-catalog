@@ -1,7 +1,7 @@
 {
   "aliases": {
-    "jbang-nobuild": {
-      "script-ref": "caniaccessprivategithubrepos",
+    "caniaccessprivategithubrepos": {
+      "script-ref": "caniaccessprivategithubrepos.java",
       "description": "Determine if the local environment is setup to access private GitHub repositories"
     }
   }
