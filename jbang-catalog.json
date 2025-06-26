@@ -1,0 +1,8 @@
+{
+  "aliases": {
+    "jbang-nobuild": {
+      "script-ref": "caniaccessprivategithubrepos",
+      "description": "Determine if the local environment is setup to access private GitHub repositories"
+    }
+  }
+}
